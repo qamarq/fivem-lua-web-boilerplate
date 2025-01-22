@@ -28,6 +28,7 @@ ox_libs {
 }
 
 client_scripts {
+  'client/utils.lua',
   'client/functions.lua',
   'client/main.lua',
 }
