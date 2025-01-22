@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="h-screen w-screen flex items-center justify-center">
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 bg-zinc-900">
         <h1>Vite + React</h1>
         <div className="card">
           <Button onClick={() => setCount((count) => count + 1)}>
