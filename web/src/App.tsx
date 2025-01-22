@@ -1,5 +1,14 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
+import { debugData } from './utils/debugData';
+
+debugData([
+  {
+    action: 'setVisible',
+    data: true,
+  },
+]);
+
 function App() {
   const [count, setCount] = useState(0);
 
